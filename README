@@ -1,0 +1,65 @@
+-------------------------------------------------------------------------------
+									      -
+This is the README file of Howler MA 1.0               			      -
+									      -
+-------------------------------------------------------------------------------
+
+Date: May 2011
+
+CONTENTS
+        1. AUTHOR
+        2. INTRODUCTION
+        3. PREREQUISITES
+        4. INSTALL
+        5. DIRECTORY STRUCTURE
+        6. USAGE
+        7. DOCUMENTATION
+
+1. AUTHOR
+
+Nare Karapetyan
+Arshak Nazaryan
+E-mail: nare.karapetyan.w@gmail.com
+	arshak.info@gmail.com
+Customer: Instigate Training Center
+www.instigatedesign.com
+
+
+2. INTRODUCTION
+	"Howler" is free software, distributed with GNU Lesser General Public License.
+	For more information about this license see http://www.gnu.org/copyleft/lesser.html .
+	The system provides user-friendly interface for easy communication via
+	local network.
+
+3. PREREQUISITES
+		Qt4 Library
+		POSIX threads lib
+		POSIX Sockets lib
+
+
+4. INSTALL
+	- For installing and running messenger you must install qt 4.0:
+      	  You can download qt 4.0 from qt.nokia.com/downloads/
+	- Instigate mkf:
+    	  You can download it from sourceforge.net/projects/instigate-mkf/
+
+
+5. DIRECTORY STRUCTURE
+
+Howler/ (main directoy)
+	| -- README (this file)
+	| -- /src
+	| -- /doc
+		documentation of this product
+
+6. USAGE
+	- Run the program, type your username and port number and login.
+	- Then you can connect to others by typing the IP address and port number of the
+	user you want to connect to. 
+	- Then a new chat window will open, where the user 
+	can send text messages and smileys, by typing :)  :(  :P  :D  :*
+
+7. DOCUMENTATION
+	The source code of the documentation is locaded in the directory Howler/doc.
+	Doxigen also generates documentation from C/C++ code comments.
+
